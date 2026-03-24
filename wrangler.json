@@ -12,14 +12,8 @@
 		"directory": "./dist/client",
 		"not_found_handling": "single-page-application"
 	},
-	"routes": [
-		{
-			"pattern": "axiondesignstudio.com/*",
-			"zone_name": "axiondesignstudio.com"
-		},
-		{
-			"pattern": "www.axiondesignstudio.com/*",
-			"zone_name": "axiondesignstudio.com"
-		}
+	"custom_domains": [
+		"axiondesignstudio.com",
+		"www.axiondesignstudio.com"
 	]
 }
