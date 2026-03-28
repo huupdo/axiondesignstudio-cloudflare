@@ -580,7 +580,7 @@ export default function AxionWebsite() {
           minHeight: "100vh",
           position: "relative",
           display: "flex",
-          alignItems: "flex-end",
+          alignItems: isMobile ? "flex-start" : "flex-end",
           overflow: "hidden",
         }}
       >
@@ -721,7 +721,7 @@ export default function AxionWebsite() {
           style={{
             position: "relative",
             zIndex: 2,
-            padding: isMobile ? `0 ${px} 60px` : `0 ${px} 80px`,
+            padding: isMobile ? `76px ${px} 60px` : `0 ${px} 80px`,
             width: "100%",
           }}
         >
